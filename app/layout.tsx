@@ -29,16 +29,16 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Антон Филипович",
-    jobTitle: "Фотограф и Видеооператор",
+    name: "Anton Filippovich",
+    jobTitle: "Photographer and Videographer",
     description:
-      "Профессиональный видеооператор и фотограф из Минска, Беларусь.",
+      "Professional videographer and photographer based in Minsk, Belarus.",
     url: "https://antonfilka.by",
     sameAs: ["https://www.instagram.com/antonfilka_photo"],
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Минск",
-      addressCountry: "Беларусь",
+      addressLocality: "Minsk",
+      addressCountry: "Belarus",
     },
     image: "https://antonfilka.by/assets/profileImg.jpeg",
     telephone: "+375-29-619-9430",
