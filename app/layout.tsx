@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import Script from "next/script";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -46,11 +47,12 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <script
+      <Script
+        id="ld+"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <SpeedInsights />;
+      <SpeedInsights />
       <GoogleAnalytics />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased w-full min-h-screen h-screen`}
