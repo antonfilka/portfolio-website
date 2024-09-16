@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /login/
+Disallow: /api/
+Disallow: /404
+Disallow: /500
+
+Disallow: /private-photos/
+Disallow: /hidden-gallery/
+
+Disallow: /_next/
+Disallow: /api/
+
+Sitemap: https://af-shots-portfolio.vercel.app/sitemap.xml
