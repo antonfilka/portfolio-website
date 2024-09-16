@@ -32,14 +32,14 @@ export default function RootLayout({
     jobTitle: "Фотограф и Видеооператор",
     description:
       "Профессиональный видеооператор и фотограф из Минска, Беларусь.",
-    url: "https://af-shots-portfolio.vercel.app",
+    url: "https://antonfilka.by",
     sameAs: ["https://www.instagram.com/antonfilka_photo"],
     address: {
       "@type": "PostalAddress",
       addressLocality: "Минск",
       addressCountry: "Беларусь",
     },
-    image: "https://af-shots-portfolio.vercel.app/assets/profileImg.jpeg",
+    image: "https://antonfilka.by/assets/profileImg.jpeg",
     telephone: "+375-29-619-9430",
     email: "antonfilippovich.job@gmail.com",
   };
