@@ -21,6 +21,14 @@ export const metadata: Metadata = {
     "портретный фотограф",
     "антон филиппович",
   ],
+  openGraph: {
+    type: "website",
+    title: "Антон Ф. - Видеооператор | Фотограф | Минск",
+    description:
+      "Страница Антона Филипповича, профессионального фотографа и видеографа из Минска, Беларусь. Специализируется на портретах, мероприятиях и коммерческом видеопроизводстве",
+    url: "https://antonfilka.by",
+    images: "https://antonfilka.by/assets/profileImg.jpeg",
+  },
 };
 
 export default function Home() {
