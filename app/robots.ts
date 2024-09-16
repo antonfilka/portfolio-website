@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/private/",
     },
-    sitemap: "https://af-shots-portfolio.vercel.app/sitemap.xml",
+    sitemap: "https://antonfilka.by/sitemap.xml",
   };
 }
