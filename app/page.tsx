@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Image from "next/image";
 import instIcon from "../public/assets/inst.webp";
 import tgIcon from "../public/assets/tg.jpeg";
@@ -6,44 +5,27 @@ import mailIcon from "../public/assets/mail.svg";
 import telIcon from "../public/assets/tel.svg";
 
 import "./index.css";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Антон Ф. - Видеооператор | Фотограф | Минск",
+  description:
+    "Страница Антона Филипповича, профессионального фотографа и видеографа из Минска, Беларусь. Специализируется на портретах, мероприятиях и коммерческом видеопроизводстве",
+  keywords: [
+    "фотография",
+    "видеосъемка",
+    "Минск",
+    "Беларусь",
+    "видеооператор мероприятий",
+    "видеооператор свадьба",
+    "портретный фотограф",
+    "антон филиппович",
+  ],
+};
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Антон Филиппович - Видеооператор | Фотограф | Минск</title>
-        <meta
-          name="description"
-          content="Портфолио Антона Филипповича, профессионального фотографа и видеографа из Минска, Беларусь. Специализируется на портретах, мероприятиях и коммерческом видеопроизводстве."
-        />
-        <meta
-          name="keywords"
-          content="фотография, видеосъемка, Минск, Беларусь, портретный фотограф, видеооператор мероприятий"
-        />
-        <script type="application/ld+json">
-          {`
-          {
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Антон Филипович",
-            "jobTitle": "Фотограф и Видеооператор",
-            "description": "Профессиональный видеооператор и фотограф из Минска, Беларусь.",
-            "url": "https://af-shots-portfolio.vercel.app",
-            "sameAs": [
-              "https://www.instagram.com/antonfilka_photo"
-            ],
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Минск",
-              "addressCountry": "Беларусь"
-            },
-            "image": "https://af-shots-portfolio.vercel.app/assets/profileImg.jpeg",
-            "telephone": "+375-29-619-9430",
-            "email": "antonfilippovich.job@gmail.com"
-          }
-          `}
-        </script>
-      </Head>
       <div className="flex flex-col items-center w-full h-full bg-white p-14">
         <div className="flex flex-col items-center mb-10">
           <h1 className="text-[32px] font-[700] text-center mb-5">
