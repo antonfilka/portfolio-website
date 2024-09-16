@@ -1,0 +1,8 @@
+.contact-button {
+  transform: scale(1);
+  transition: all 0.15s ease-in-out;
+}
+
+.contact-button:hover {
+  transform: scale(1.1);
+}
